@@ -12,7 +12,7 @@ function App() {
       {githubState.hasUser ? (
         <>
           {githubState.loading ? (
-            <p>Loading</p>
+            <p>Loading!</p>
           ) : (
             <>
               <Profile />
